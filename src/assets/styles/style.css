@@ -11,3 +11,49 @@
 .animate {
   animation: rotate 2s linear infinite;
 }
+
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden; 
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+@media only screen and (max-width: 400px){
+  .ul-head{
+    width: 100%;
+    right: 0;
+    left: 0;
+    margin: 0; /* Ensure no margin */
+    padding: 0; /* Ensure no padding */
+  }
+  
+  .container{
+    padding-left: 1rem;
+  }
+
+  .containers{
+    padding-bottom: 2rem;
+    padding-inline-start: 15px;
+    padding-inline-end: 15px;
+  }
+  /* .boxs{
+   min-width: 0;
+   padding-left: 0;
+  }
+   */
+    
+    
+  
+
+}
+    
+  
+

@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaLinkedin, FaTwitter } from 'react-icons/fa';
 
+
 const Hero = () => {
   return (
     <div className='flex flex-col md:flex-row items-center justify-center pt-10 px-4'>

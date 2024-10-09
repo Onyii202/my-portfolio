@@ -21,7 +21,7 @@ const Bio = React.forwardRef ((props, ref) => {
           About <span className="text-green-400">me.</span>{" "}
         </p>
       </div>
-      <div className="flex flex-col md:flex-row justify-around items-center pl-6 pt-4">
+      <div className="flex flex-col md:flex-row justify-around items-center md:pl-6 sm:pl-0 pt-4 ">
         <div
           className="relative rounded-full border border-green-400 flex justify-center items-center cursor-pointer "
           style={{ width: "350px", height: "350px", flexShrink: "0" }}
@@ -93,7 +93,7 @@ const Bio = React.forwardRef ((props, ref) => {
           />
         </div>
         <div
-          className="md:px-24 mt-8 md:mt-0 font-bold  "
+          className="md:px-24 mt-8 md:mt-0 font-bold px-6 py-2"
           style={{ fontSize: "18px", lineHeight: "1.8" }}
         >
           <p className="text-white">
@@ -132,7 +132,7 @@ const Bio = React.forwardRef ((props, ref) => {
             Technical <span className="text-green-400">Skills.</span>{" "}
           </p>
           <div
-            className="text-white md:pr-24 md:mt-0  font-bold pt-6"
+            className="text-white md:pr-24 md:mt-0 pr-0 font-bold pt-6"
             style={{ fontSize: "18px", lineHeight: "1.8" }}
           >
             <p>

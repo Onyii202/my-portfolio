@@ -16,6 +16,10 @@ import Touch from "./components/Touch";
 import Footer from "./components/Footer";
 import { useRef } from "react";
 
+
+
+
+
 function App() {
   const aboutSectionRef = useRef(null);
   const featuredSectionRef = useRef(null);

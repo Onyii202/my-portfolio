@@ -3,6 +3,8 @@ import { FaAccessibleIcon, FaPaintBrush, FaUikit } from "react-icons/fa";
 import free from "../assets/images/free.png";
 import crate from "../assets/images/crate.png";
 import allBirds from "../assets/images/allBirds.png";
+import "../assets/styles/style.css";
+
 
 const Services = React.forwardRef((props, ref) => {
   return (
@@ -14,7 +16,7 @@ const Services = React.forwardRef((props, ref) => {
         </p>
       </div>
       <div className="flex flex-col md:flex-row items-center  justify-center gap-6 pt-4">
-        <div className=" w-3/4 md:w-1/4  h-72 border border-green-400 p-10 rounded-lg bg-green-300">
+        <div className=" w-3/4 md:w-1/4  h-72 border border-green-400 container p-10 rounded-lg bg-green-300">
           <FaAccessibleIcon className="text-3xl" />
           <h1 className="font-black text-2xl">Web Development</h1>
           <hr className="w-32 bg-black h-0.5 mt-4  border-0" />
@@ -23,7 +25,7 @@ const Services = React.forwardRef((props, ref) => {
             HTML5,CSS3,JAVASCRIPT,TAILWIND to build digital solutions for users.
           </p>
         </div>
-        <div className="w-3/4 md:w-1/4 h-72 border border-green-400 p-10 rounded-lg bg-gray-700">
+        <div className="w-3/4 md:w-1/4 h-72 border border-green-400 p-10 containers rounded-lg bg-gray-700">
           <FaUikit className="text-3xl" />
           <h1 className="font-black text-2xl">Ui Design</h1>
           <hr className="w-3/4 bg-gray-400 h-0.5 mt-4  border-0" />
@@ -33,7 +35,7 @@ const Services = React.forwardRef((props, ref) => {
             responsive interfaces.
           </p>
         </div>
-        <div className="w-3/4 md:w-1/4 h-72 border border-green-400 p-10 rounded-lg bg-gray-700">
+        <div className="w-3/4 md:w-1/4 h-72 border border-green-400 p-10 containers rounded-lg bg-gray-700">
           <FaPaintBrush className="text-3xl" />
           <h1 className="font-black text-2xl">Content Writing</h1>
           <hr className="w-32 bg-gray-400 h-0.5 mt-4  border-0" />
@@ -55,8 +57,8 @@ const Services = React.forwardRef((props, ref) => {
         <div className="flex flex-col items-center">
           <div
             style={{ width: "380px", height: "440px", overflow: "hidden" }}
-            className="border border-green-400 flex px-8
-          justify-center items-center rounded-lg "
+            className="border border-green-400 flex px-4 md:px-8 sm:px-6
+          justify-center items-center rounded-lg w-full max-w-xs sm:max-w-sm md:max-w-md "
           >
             <img
               src={free}
@@ -79,8 +81,8 @@ const Services = React.forwardRef((props, ref) => {
         <div className="flex flex-col items-center">
           <div
             style={{ width: "380px", height: "440px" }}
-            className="border border-green-400 flex 
-          justify-center items-center rounded-lg px-8"
+            className="border border-green-400 flex sm:px-6
+          justify-center items-center rounded-lg md:px-8 px-4 w-full max-w-xs sm:max-w-sm md:max-w-md"
           >
             <img
               src={crate}
@@ -103,8 +105,8 @@ const Services = React.forwardRef((props, ref) => {
         <div className="flex flex-col items-center">
           <div
             style={{ width: "380px", height: "440px" }}
-            className="border border-green-400 flex 
-          justify-center items-center rounded-lg px-8"
+            className="border border-green-400 flex px-4 sm:px-6
+          justify-center items-center rounded-lg md:px-8 w-full max-w-xs sm:max-w-sm md:max-w-md"
           >
             <img
               src={allBirds}
@@ -127,8 +129,8 @@ const Services = React.forwardRef((props, ref) => {
         <div className="flex flex-col items-center">
           <div
             style={{ width: "380px", height: "440px" }}
-            className="border border-green-400 flex 
-          justify-center items-center rounded-lg px-8"
+            className="border border-green-400 flex px-4 sm:px-6
+          justify-center items-center rounded-lg md:px-8 w-full max-w-xs sm:max-w-sm md:max-w-md"
           >
             <img
               src={free}
@@ -150,8 +152,8 @@ const Services = React.forwardRef((props, ref) => {
         <div className="flex flex-col items-center">
           <div
             style={{ width: "380px", height: "440px" }}
-            className="border border-green-400 flex 
-          justify-center items-center rounded-lg px-8"
+            className="border border-green-400 flex px-4 sm:px-6 
+          justify-center items-center rounded-lg md:px-8 w-full max-w-xs sm:max-w-sm md:max-w-md"
           >
             <img
               src={crate}
@@ -174,8 +176,8 @@ const Services = React.forwardRef((props, ref) => {
         <div className="flex flex-col items-center">
           <div
             style={{ width: "380px", height: "440px" }}
-            className="border border-green-400 flex 
-          justify-center items-center rounded-lg px-8"
+            className="border border-green-400 flex sm:px-6 px-4 
+          justify-center items-center rounded-lg px-8 w-full max-w-xs sm:max-w-sm md:max-w-md"
           >
             <img
               src={allBirds}

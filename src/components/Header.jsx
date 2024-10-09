@@ -3,6 +3,8 @@ import React, { useState, useRef } from "react";
 import { FaAddressBook, FaAmazon, FaBars, FaBriefcase, FaBriefcaseMedical, FaBroom } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import tech from '../assets/images/tech.png'
+import "../assets/styles/style.css";
+
 
 
 const Header = ({scrollToSection, scrollToFeatured, scrollToContact}) => {
@@ -15,7 +17,7 @@ const Header = ({scrollToSection, scrollToFeatured, scrollToContact}) => {
 
   const  [open, setOpen] =useState(false);
   return (
-    <div className="md:flex items-center justify-center h-16 bg-gray-500 justify-around poppins font-semibold sticky top-0 z-50">
+    <div className="md:flex items-center justify-center ul-head h-16 bg-gray-500 justify-around poppins font-semibold sticky top-0 z-50">
       <div className="font-bold text-white">Leinad.</div>
       <div
         onClick={() => setOpen(!open)}
